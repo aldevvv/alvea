@@ -76,7 +76,7 @@ function Navbar({ isEnglish, setIsEnglish, currentPage = 'home' }: NavbarProps) 
               <img
                 src={AlveaFixLogo}
                 alt="Alvea"
-                className="h-24 w-auto"
+                className="h-32 w-auto"
               />
             </motion.div>
           </Link>
