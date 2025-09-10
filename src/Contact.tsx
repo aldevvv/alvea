@@ -275,7 +275,7 @@ function Contact() {
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 group"
+                className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 group flex flex-col"
               >
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-16 h-16 bg-maroon/10 rounded-2xl flex items-center justify-center group-hover:bg-maroon group-hover:scale-110 transition-all duration-300">
@@ -290,7 +290,7 @@ function Contact() {
                 <h4 className="text-lg font-semibold text-gray-800 mb-4">{t.ctas.discovery.subtitle}</h4>
                 <p className="text-gray-600 leading-relaxed mb-6">{t.ctas.discovery.description}</p>
                 
-                <ul className="space-y-3 mb-8 flex-grow">
+                <ul className="space-y-3 mb-8 flex-grow flex-grow">
                   {t.ctas.discovery.features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-maroon mt-0.5 flex-shrink-0" />
@@ -330,11 +330,11 @@ function Contact() {
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 group"
+                className="bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 group flex flex-col"
               >
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center group-hover:bg-green-500 group-hover:scale-110 transition-all duration-300">
-                    <MessageCircle className="w-8 h-8 text-green-600 group-hover:text-white transition-colors duration-300" />
+                  <div className="w-16 h-16 bg-maroon/10 rounded-2xl flex items-center justify-center group-hover:bg-maroon group-hover:scale-110 transition-all duration-300">
+                    <MessageCircle className="w-8 h-8 text-maroon group-hover:text-white transition-colors duration-300" />
                   </div>
                   <div>
                     <h3 className="font-display text-2xl font-bold text-maroon">{t.ctas.whatsapp.title}</h3>
@@ -345,10 +345,10 @@ function Contact() {
                 <h4 className="text-lg font-semibold text-gray-800 mb-4">{t.ctas.whatsapp.subtitle}</h4>
                 <p className="text-gray-600 leading-relaxed mb-6">{t.ctas.whatsapp.description}</p>
                 
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3 mb-8 flex-grow">
                   {t.ctas.whatsapp.features.map((feature, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-maroon mt-0.5 flex-shrink-0" />
                       <span className="text-gray-600">{feature}</span>
                     </li>
                   ))}
@@ -367,7 +367,7 @@ function Contact() {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
+                  className="w-full bg-maroon text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-maroon-600 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl"
                 >
                   {t.ctas.whatsapp.button}
                   <MessageCircle size={20} />
