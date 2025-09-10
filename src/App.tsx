@@ -223,7 +223,7 @@ function App() {
           submit: 'Send Message'
         },
         info: [
-          { icon: Mail, text: 'support@alvea.web.id' },
+          { icon: Mail, text: 'support@alvea.my.id' },
           { icon: MessageCircle, text: '085349905538', link: 'https://wa.me/6285349905538' },
           { icon: MapPin, text: 'Makassar, Indonesia' }
         ]
