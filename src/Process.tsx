@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Search, Lightbulb, Camera, Rocket, TrendingUp, Award, Users, Zap, CheckCircle, ArrowRight } from 'lucide-react'
 import Navbar from './components/Navbar'
-import AlveaMaroonLogo from './assets/AlveaMaroon.png'
+import AlveaFixLogo from './assets/AlveaFix.png'
 
 function Process() {
   const [isEnglish, setIsEnglish] = useState(true)
@@ -319,7 +319,7 @@ function Process() {
               className="text-center mb-16"
             >
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto mb-8"
               />
@@ -475,7 +475,7 @@ function Process() {
             {/* Alvea Brand Mark */}
             <div className="text-center py-16">
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto opacity-10"
               />
@@ -547,7 +547,7 @@ function Process() {
             {/* Alvea Brand Mark */}
             <div className="text-center py-8 mb-12">
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto opacity-10"
               />

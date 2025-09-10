@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Calendar, MessageCircle, ArrowRight, Clock, MapPin, Mail, Phone, CheckCircle, Users, Award, Zap } from 'lucide-react'
 import { useForm } from 'react-hook-form'
 import Navbar from './components/Navbar'
-import AlveaMaroonLogo from './assets/AlveaMaroon.png'
+import AlveaFixLogo from './assets/AlveaFix.png'
 
 function Contact() {
   const [isEnglish, setIsEnglish] = useState(true)
@@ -215,7 +215,7 @@ function Contact() {
               className="text-center mb-16"
             >
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto mb-8"
               />

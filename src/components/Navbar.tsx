@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { Link, useLocation } from 'react-router-dom'
-import AlveaMaroonLogo from '../assets/AlveaMaroon.png'
+import AlveaFixLogo from '../assets/AlveaFix.png'
 
 interface NavbarProps {
   isEnglish: boolean
@@ -74,7 +74,7 @@ function Navbar({ isEnglish, setIsEnglish, currentPage = 'home' }: NavbarProps) 
               className="transition-all duration-300"
             >
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-14 w-auto"
               />

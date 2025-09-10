@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Camera, Share2, Globe, ArrowRight, CheckCircle, TrendingUp, Users, BarChart3, Monitor, Smartphone, Zap } from 'lucide-react'
 import Navbar from './components/Navbar'
-import AlveaMaroonLogo from './assets/AlveaMaroon.png'
+import AlveaFixLogo from './assets/AlveaFix.png'
 
 function Services() {
   const [isEnglish, setIsEnglish] = useState(true)
@@ -233,7 +233,7 @@ function Services() {
               className="text-center mb-16"
             >
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto mb-8"
               />

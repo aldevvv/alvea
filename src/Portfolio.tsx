@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Camera, Share2, Globe, ArrowRight, Filter, X } from 'lucide-react'
 import Navbar from './components/Navbar'
-import AlveaMaroonLogo from './assets/AlveaMaroon.png'
+import AlveaFixLogo from './assets/AlveaFix.png'
 
 function Portfolio() {
   const [isEnglish, setIsEnglish] = useState(true)
@@ -363,7 +363,7 @@ function Portfolio() {
               className="text-center mb-16"
             >
               <img
-                src={AlveaMaroonLogo}
+                src={AlveaFixLogo}
                 alt="Alvea"
                 className="h-16 w-auto mx-auto mb-8"
               />

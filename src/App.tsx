@@ -20,7 +20,7 @@ import {
   Send
 } from 'lucide-react'
 import Navbar from './components/Navbar'
-import AlveaMaroonLogo from './assets/AlveaMaroon.png'
+import AlveaFixLogo from './assets/AlveaFix.png'
 import AlveaWhiteLogo from './assets/AlveaWhite.png'
 
 function App() {
@@ -995,7 +995,7 @@ function App() {
             <div className="md:col-span-2">
               <div className="mb-4">
                 <img 
-                  src={AlveaMaroonLogo} 
+                  src={AlveaFixLogo}
                   alt="Alvea" 
                   className="h-8 w-auto"
                 />
