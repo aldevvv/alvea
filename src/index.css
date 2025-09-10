@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Tailwind v4 tokens: move custom design system into @theme */
+@theme {
+  /* Brand colors */
+  --color-maroon: #7C1D2B;
+  --color-maroon-50: #F5E8EA;
+  --color-maroon-100: #EAD1D5;
+  --color-maroon-200: #D5A3AB;
+  --color-maroon-300: #C07581;
+  --color-maroon-400: #AB4757;
+  --color-maroon-500: #7C1D2B;
+  --color-maroon-600: #6B1825;
+  --color-maroon-700: #5A131F;
+  --color-maroon-800: #490F19;
+  --color-maroon-900: #380A13;
+
+  --color-gold: #D4AF37;
+  --color-gold-50: #FAF7F0;
+  --color-gold-100: #F5EFE1;
+  --color-gold-200: #EBDFC3;
+  --color-gold-300: #E1CFA5;
+  --color-gold-400: #D7BF87;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B8962E;
+  --color-gold-700: #9C7D25;
+  --color-gold-800: #80641C;
+  --color-gold-900: #644B13;
+
+  /* Fonts */
+  --font-display: "Playfair Display", serif;
+  --font-sans: Inter, system-ui, sans-serif;
+
+  /* Animation presets */
+  --animate-fade-in: fadeIn 0.8s ease-in-out;
+  --animate-slide-up: slideUp 0.6s ease-out;
+  --animate-marquee: marquee 20s linear infinite;
+}
+
+/* Keyframes for custom animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Base styles */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar utilities */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
