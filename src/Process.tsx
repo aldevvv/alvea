@@ -321,7 +321,7 @@ function Process() {
               <img
                 src={AlveaFixLogo}
                 alt="Alvea"
-                className="h-16 w-auto mx-auto mb-8"
+                className="h-20 w-auto mx-auto mb-8"
               />
               <div className="w-24 h-px bg-gradient-to-r from-transparent via-gold to-transparent mx-auto mb-8"></div>
             </motion.div>
@@ -477,7 +477,7 @@ function Process() {
               <img
                 src={AlveaFixLogo}
                 alt="Alvea"
-                className="h-16 w-auto mx-auto opacity-10"
+                className="h-20 w-auto mx-auto opacity-10"
               />
             </div>
           </div>
@@ -549,7 +549,7 @@ function Process() {
               <img
                 src={AlveaFixLogo}
                 alt="Alvea"
-                className="h-16 w-auto mx-auto opacity-10"
+                className="h-20 w-auto mx-auto opacity-10"
               />
             </div>
 

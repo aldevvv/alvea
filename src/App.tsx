@@ -996,8 +996,8 @@ function App() {
               <div className="mb-4">
                 <img 
                   src={AlveaFixLogo}
-                  alt="Alvea" 
-                  className="h-8 w-auto"
+                  alt="Alvea"
+                  className="h-12 w-auto"
                 />
               </div>
               <p className="text-gray-600 mb-6 max-w-md">
